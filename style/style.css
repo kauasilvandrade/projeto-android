@@ -211,3 +211,56 @@ footer a:hover {
     text-decoration: underline;
     color: var(--cor1);
 }
+
+/* PÁGINA DE CONTATO */
+form {}
+
+form .form-header {}
+
+form .form-header h1 {
+    color: var(--cor5);
+    font-family: var(--fonte-android);
+    font-weight: normal;
+    font-size: 1.8em;
+    background-image: linear-gradient(to right,var(--cor1), transparent);
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+form .grupo-inputs {}
+
+form .grupo-inputs .box-input {}
+
+form .grupo-inputs .box-input label {
+    color: var(--cor4);
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+form .grupo-inputs .box-input input {
+    padding: 5px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+form .grupo-inputs .box-input input:hover {
+    background-color: rgba(199, 197, 197, 0.493);
+}
+
+form .grupo-inputs .box-input .icone {
+    width: 20px;
+}
+
+form .text-mensagem {}
+
+form .text-mensagem label {}
+
+form .text-mensagem textarea {}
+
+form .text-mensagem .icone {
+    width: 20px;
+}
+
+form .button-box {}
+
+form .button button {}
