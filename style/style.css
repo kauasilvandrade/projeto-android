@@ -214,8 +214,9 @@ footer a:hover {
 
 /* PÁGINA DE CONTATO */
 form {
-    width: 720px;
+    max-width: 727px;
     margin: auto;
+    width: 100%;
 }
 
 form .form-header {}
@@ -317,7 +318,7 @@ form .text-mensagem .mensagem {
 
 form .button-box {
     margin: 30px auto;
-    width: 5px;
+    width: 90%;
 }
 
 form .button-box button {
@@ -326,9 +327,14 @@ form .button-box button {
     font-weight: bolder;
     border-radius: 5px;
     padding: 10px;
+    border: none;
 }
 
 form .button-box button:hover {
     background-color: var(--cor2);
     color: var(--cor5);
+}
+
+@media screen and (max-width: 498px) {
+    
 }
