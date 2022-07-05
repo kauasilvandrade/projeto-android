@@ -259,7 +259,7 @@ form .grupo-inputs .box-input input {
 
 
 form .grupo-inputs .box-input input:focus-visible {
-    outline: 1px solid var(--cor5);
+    outline: 2px solid var(--cor5);
 }
 form .grupo-inputs .box-input input:hover {
     background-color: #0000001c;
@@ -335,6 +335,41 @@ form .button-box button:hover {
     color: var(--cor5);
 }
 
-@media screen and (max-width: 498px) {
-    
+@media screen and (max-width: 624px) {
+    form .grupo-inputs {
+        flex-direction: column;
+        display: flex;
+        align-content: center;
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    form .text-mensagem {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+    }
+
+    form .text-mensagem .mensagem {
+        left: 3%;
+        top: 16%;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    form .grupo-inputs {
+        flex-direction: column;
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+    }
+
+    form .grupo-inputs .box-input {
+        display: flex;
+    }
+
+    form .text-mensagem .mensagem {
+        left: 3%;
+        top: 17%;
+    }
 }
