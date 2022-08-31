@@ -323,7 +323,7 @@ form .button-box {
     align-items: center;
 }
 
-form .button-box button {
+form .button-box input {
     color: var(--cor1);
     background-color: var(--cor5);
     font-weight: bolder;
@@ -333,7 +333,7 @@ form .button-box button {
     width: 35%;
 }
 
-form .button-box button:hover {
+form .button-box input:hover {
     background-color: var(--cor2);
     color: var(--cor5);
 }

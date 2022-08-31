@@ -30,7 +30,7 @@
 
     <main>
 
-        <form action="#">
+        <form action="cadastro.php" autocomplete="on" method="post">
 
             <div class="form-header">
 
@@ -44,7 +44,7 @@
                     
                     <label for="firstname">Nome</label>
 
-                    <input id="firstname" type="text" name="firsname" placeholder="Digite seu primeiro nome" required >
+                    <input id="firstname" type="text" name="firsname" placeholder="Digite seu primeiro nome" required minlength="8" maxlength="20" autocomplete="username">
 
                     <img src="imagens/person-solid.svg" alt="" class="nome">
                     
@@ -55,7 +55,7 @@
                     
                     <label for="lastname">Sobrenome</label>
                     
-                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required >
+                    <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required autocomplete="username" minlength="8" maxlength="20">
                     
                     <img src="imagens/person-solid.svg" alt="" class="sobrenome">
 
@@ -65,7 +65,7 @@
                     
                     <label for="number">Celular</label>
 
-                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required >
+                    <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required autocomplete="tel" maxlength="11">
 
                     <img src="imagens/phone-solid.svg" alt="" class="celular">
 
@@ -75,7 +75,7 @@
                     
                     <label for="email">Email</label>
 
-                    <input id="email" type="email" name="email" placeholder="Digite seu email" required >
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" required autocomplete="email">
 
                     <img src="imagens/envelope-solid.svg" alt="" class="email">
 
@@ -87,7 +87,7 @@
 
                 <label for="mensagem">Mensagem</label>
 
-                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem"></textarea>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Mensagem" required></textarea>
 
                 <img src="imagens/message-solid.svg" alt="" class="mensagem">
 
@@ -96,7 +96,7 @@
 
             <div class="button-box">
 
-                <button>Enviar</button>
+                <input type="submit" value="Enviar">
 
             </div>
 
